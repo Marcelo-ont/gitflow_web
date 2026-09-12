@@ -3,3 +3,4 @@ body { font-family: system-ui, sans-serif; color: #1f2937; background: #f9fafb; 
 header { background: #1e3a8a; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
 nav a { color: #fff; text-decoration: none; margin-left: 1.5rem; }
 nav a:hover { text-decoration: underline; }
+@media (max-width: 600px) { header { flex-direction: column; gap: .5rem; } nav a { margin: 0 .75rem; } }
