@@ -4,3 +4,6 @@ header { background: #1e3a8a; color: #fff; padding: 1rem 2rem; display: flex; ju
 nav a { color: #fff; text-decoration: none; margin-left: 1.5rem; }
 nav a:hover { text-decoration: underline; }
 @media (max-width: 600px) { header { flex-direction: column; gap: .5rem; } nav a { margin: 0 .75rem; } }
+main { max-width: 900px; margin: 0 auto; padding: 2rem; }
+section { margin-bottom: 3rem; }
+section h2 { color: #1e3a8a; margin-bottom: 1rem; }
